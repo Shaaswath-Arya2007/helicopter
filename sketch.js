@@ -71,7 +71,13 @@ function keyPressed() {
 	  }
 	  
 	if (keyCode === DOWN_ARROW) {
-	   //make the static property of packageBody as false
+	  Matter.Body.setStatic(packageBody, false)
+		
+		
+		
+		
+		
+		
 
 	}
 }
